@@ -1,0 +1,13 @@
+dataset: flights
+fasttext_dim: 50
+fasttext_model_path: /u/student/2024/cs24mtech11008/ZeroED-main/cc.en.300.bin
+historical_datasets:
+- billionaire
+- beers
+- rayyan
+- hospital
+n_clusters: 5
+target_dataset: flights
+top_k_related: 5
+use_confidence: true
+use_history: true
