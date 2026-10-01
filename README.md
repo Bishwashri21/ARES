@@ -21,7 +21,6 @@ The current `pipeline.py` also calls `generate_errors()` for each column and sav
 | `saged_meta.py`, `saged_profiler.py`, `saged_features.py` | Historical classifiers, profile matching, and supporting features |
 | `llm_logging.py` | LLM request and approximate token logging |
 | `run_incremental_historical.py`, `run_incremental_historical.sh` | Incremental historical-pool experiment |
-| `universal-error-generator.py` | Separate data-error generation utility; not imported by the main pipeline |
 
 Python imports use the unsuffixed names above. If your download contains files such as `pipeline(1).py`, rename or copy them to `pipeline.py`, and do the same for the other `(1)` files before running the project.
 
